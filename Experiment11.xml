@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<cricketers>
+
+    <player>
+        <name>Virat Kohli</name>
+        <jersey>18</jersey>
+        <team>India</team>
+        <role>Batsman</role>
+    </player>
+
+    <player>
+        <name>Rohit Sharma</name>
+        <jersey>45</jersey>
+        <team>India</team>
+        <role>Batsman</role>
+    </player>
+
+    <player>
+        <name>MS Dhoni</name>
+        <jersey>7</jersey>
+        <team>India</team>
+        <role>Wicket Keeper</role>
+    </player>
+
+</cricketers>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="players.xsl"?>
+
+<footballplayers>
+
+<player>
+<name>Lionel Messi</name>
+<country>Argentina</country>
+<position>Forward</position>
+</player>
+
+<player>
+<name>Cristiano Ronaldo</name>
+<country>Portugal</country>
+<position>Forward</position>
+</player>
+
+<player>
+<name>Neymar Jr</name>
+<country>Brazil</country>
+<position>Winger</position>
+</player>
+
+</footballplayers>
