@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Experiments</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:linear-gradient(to right,#141e30,#243b55);
+            min-height:100vh;
+            color:white;
+        }
+
+        header{
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header h1{
+            font-size:42px;
+            margin-bottom:15px;
+            color:#00e5ff;
+        }
+
+        header p{
+            font-size:18px;
+            margin:5px 0;
+            color:#f1f1f1;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:25px;
+            padding-bottom:40px;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.1);
+            padding:25px;
+            border-radius:15px;
+            backdrop-filter:blur(8px);
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+            transition:0.4s;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+            background:rgba(255,255,255,0.18);
+        }
+
+        .card h2{
+            margin-bottom:15px;
+            color:#00e5ff;
+        }
+
+        .card p{
+            margin-bottom:20px;
+            line-height:1.5;
+            color:#f1f1f1;
+        }
+
+        .btn-group{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .btn-group a{
+            text-decoration:none;
+            background:#00e5ff;
+            color:black;
+            padding:10px 16px;
+            border-radius:8px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn-group a:hover{
+            background:white;
+            transform:scale(1.05);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌐 Web Development</h1>
+        <p><b>Name :</b> Siddhesh Ravindra Madekar</p>
+        <p><b>Class :</b> SY CSE A</p>
+        <p><b>Roll No :</b> 67</p>
+    </header>
+
+    <section class="container">
+
+        <div class="card">
+            <h2>Experiment 02</h2>
+            <p>Basic HTML webpage experiment.</p>
+            <div class="btn-group">
+                <a href="Experiment02.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 03</h2>
+            <p>HTML formatting and webpage structure.</p>
+            <div class="btn-group">
+                <a href="Experiment03.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 04A</h2>
+            <p>Advanced webpage layout design.</p>
+            <div class="btn-group">
+                <a href="Experiment04A.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 04B</h2>
+            <p>Tables and multimedia implementation.</p>
+            <div class="btn-group">
+                <a href="Experiment04B.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 04C</h2>
+            <p>Lists and hyperlinks in HTML.</p>
+            <div class="btn-group">
+                <a href="Experiment04C.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 04D</h2>
+            <p>HTML forms and input controls.</p>
+            <div class="btn-group">
+                <a href="Experiment04D.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 05</h2>
+            <p>CSS styling and webpage design.</p>
+            <div class="btn-group">
+                <a href="Experiment05.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 06</h2>
+            <p>Navigation menu creation.</p>
+            <div class="btn-group">
+                <a href="Experiment06.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 07</h2>
+            <p>JavaScript basic interaction.</p>
+            <div class="btn-group">
+                <a href="Experiment07.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 08</h2>
+            <p>DOM manipulation using JavaScript.</p>
+            <div class="btn-group">
+                <a href="Experiment08.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 09</h2>
+            <p>Form validation and processing.</p>
+            <div class="btn-group">
+                <a href="Experiment09.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 10</h2>
+            <p>Resume webpage practical.</p>
+            <div class="btn-group">
+                <a href="Experiment10.html">Open</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 11 - XML + CSS</h2>
+            <p>XML document with external CSS styling.</p>
+            <div class="btn-group">
+                <a href="Experiment11.xml">Open XML</a>
+                <a href="style.css">Open CSS</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 12 - XML + XSLT</h2>
+            <p>XML transformation using players.xsl stylesheet.</p>
+            <div class="btn-group">
+                <a href="Experiment12.xml">Open XML</a>
+                <a href="players.xsl">Open XSL</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Experiment 13 - XML + XSLT</h2>
+            <p>Advanced XML transformation using XSLT.</p>
+            <div class="btn-group">
+                <a href="Experiment13.xml">Open XML</a>
+                <a href="Experiment13.xsl">Open XSL</a>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
